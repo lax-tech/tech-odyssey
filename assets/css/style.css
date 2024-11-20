@@ -1,0 +1,298 @@
+
+.home-header{
+    margin-top: 50px;
+    color: white;
+    
+}
+
+.home-header h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+main{
+}
+
+.section-sub-title{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.section-sub-title::before{
+    position: absolute;
+    z-index: 1;
+    content: '';
+    height: 4px;
+    width: 70px;
+    border-radius: 6px;
+    left: 0;
+    bottom: -5px;
+    background-color: var(--red);
+}
+
+.section-title{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.section-img{
+    width: 100%;
+    border-radius: 18px;
+}
+
+header{
+    overflow: hidden;
+}
+
+.home-header-container{
+    margin-top: -50px;
+    position: relative;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    padding: 0 100px;
+    background: linear-gradient(to bottom, #00000069 0%, #00000052 100%), url(../img/IMG_8521.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-header-container .imgs div{
+    position: absolute;
+    width: 150px;
+    transition: all .2s ease-out;
+}
+.home-header-container .imgs div:hover{
+    scale: 1.2;
+}
+.home-header-container .imgs div img{
+    width: 100%;
+}
+.home-header-container .imgs div:nth-child(1){
+    top: -5px;
+    left: -60px;
+}
+.home-header-container .imgs div:nth-child(3){
+    top: 40px;
+    right: -60px;
+}
+.home-header-container .imgs div:nth-child(2){
+    top: auto;
+    bottom: -100px;
+    left: 80px;
+}
+
+.home-header-container .imgs div::before {
+    position: absolute;
+    content: '';
+    bottom: -2px;
+    left: -2px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--red);
+    border-right: none;
+    border-top: none;
+    border-bottom-left-radius: 24px;
+    transition: all .4s ease-out;
+}
+.home-header-container .imgs div::after {
+    position: absolute;
+    content: '';
+    top: -2px;
+    right: -2px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--red);
+    border-bottom: none;
+    border-left: none;
+    border-top-right-radius: 24px;
+    transition: all .4s ease-out;
+}
+.home-header-container .imgs div:hover::before {
+    width: 15px;
+    height: 85px;
+}
+.home-header-container .imgs div:hover:after {
+    width: 25px;
+    height: 85px;
+}
+
+
+/* ABOUT */
+.about-section .keys li div{
+    margin: 10px 0;
+    text-align: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+/* CIBLE SECTION */
+.cible-section{
+    background-image: url(../img/bg2.png);
+    background-position: left;
+    background-position-y: -220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Testimony */
+.testimony-section {
+    
+    background-image: url(../img/pngegg.png);
+    background-position: top;
+    background-size: 600px;
+    background-repeat: no-repeat;
+}
+.testimony-section p, .testimony-section span{
+    color: #ffffff8e;
+}
+.testimony-card {
+    position: relative;
+    border: 1px solid #ffffff20;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    transition: all .4s ease-out;
+}
+.testimony-card .testimony-card-content{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.testimony-card .testimony-card-author{
+    display: flex;
+    align-items: center;
+}
+.testimony-card .testimony-card-author img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimony-card .testimony-card-author h5{
+    margin-bottom: 0;
+}
+
+.testimony-card::before {
+    position: absolute;
+    content: '';
+    bottom: -12px;
+    left: -12px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #b13131;
+    border-right: none;
+    border-top: none;
+    border-top-right-radius: 24px;
+    transition: all .4s ease-out;
+}
+.testimony-card::after {
+    position: absolute;
+    content: '';
+    top: -12px;
+    right: -12px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #b13131;
+    border-bottom: none;
+    border-left: none;
+    border-top-right-radius: 24px;
+    transition: all .4s ease-out;
+}
+.testimony-card:hover {
+    border-color: transparent;
+    background-color: #13161d;
+}
+.testimony-card:hover::before {
+    width: 30px;
+    height: 170px;
+}
+.testimony-card:hover:after {
+    width: 30px;
+    height: 170px;
+}
+.testimony-section .col:nth-child(1) .testimony-card::after,
+ .testimony-section .col:nth-child(1) .testimony-card::before,
+ .home-header-container .imgs div:nth-child(1)::before,
+ .home-header-container .imgs div:nth-child(1)::after {
+    border-color: var(--blue);
+}
+.testimony-section .col:nth-child(2) .testimony-card::after,
+ .testimony-section .col:nth-child(2) .testimony-card::before,
+ .home-header-container .imgs div:nth-child(2)::before,
+ .home-header-container .imgs div:nth-child(2)::after{
+    border-color: var(--yellow) !important;
+}
+.testimony-section .col:nth-child(3) .testimony-card::after,
+ .testimony-section .col:nth-child(3) .testimony-card::before,
+ .home-header-container .imgs div:nth-child(3)::before,
+ .home-header-container .imgs div:nth-child(3)::after {
+    border-color: var(--red);
+}
+
+
+
+.color-container div{
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px #dddddd;
+}
+
+.color1{
+    background: var(--blue);
+}
+.color2{
+    background: var(--yellow);
+}
+.color3{
+    background: var(--red);
+}
+.color4{
+    background: var(--black);
+}
+
+
+footer .content{
+    border-radius: 18px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-image: url(../img/bg2.png);
+    background-position: left;
+    background-position-y: -180px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+@media (max-width: 768px)  {
+    .home-header-container{
+        padding: 20px;
+    }
+    .page-title{
+        font-size: 31px !important;
+    }
+
+    
+    .cible-section{
+        background-position: left;
+        background-position-y: -0px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    footer .content{
+        border-radius: 18px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
