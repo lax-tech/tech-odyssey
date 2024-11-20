@@ -129,9 +129,34 @@ header{
 .about-section .keys li div{
     margin: 10px 0;
     text-align: center;
-    border: 1px solid #c4c4c4;
     border-radius: 12px;
-    padding: 20px;
+    padding: 25px 18px;
+}
+
+.about-section .key{
+    font-size: 18px;
+    min-height: 150px;
+    font-weight: 700;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+}
+.about-section .keys li:nth-child(1) .key{
+    background: var(--blue);
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    color: white;
+}
+.about-section .keys li:nth-child(2) .key{
+    background: var(--red);
+    background-image: url(../img/bg3.png);
+    color: white;
+    background-size: contain;
+}
+.about-section .keys li:nth-child(3) .key{
+    background: var(--yellow);
+    background-image: url(../img/bg.webp);
+    background-size: cover;
 }
 
 /* CIBLE SECTION */
