@@ -216,7 +216,7 @@ header{
     border: 2px solid #b13131;
     border-right: none;
     border-top: none;
-    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
     transition: all .4s ease-out;
 }
 .testimony-card::after {
