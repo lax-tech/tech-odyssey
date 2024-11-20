@@ -1,4 +1,4 @@
-document.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const loadContainer = document.querySelector('.loading-container')
 
     setTimeout(() => {
