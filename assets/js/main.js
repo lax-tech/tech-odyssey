@@ -7,5 +7,5 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             loadContainer.style.display = "none"
         }, 1000);
-    }, 0);
+    }, 1000);
 })
