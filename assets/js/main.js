@@ -6,6 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
         loadContainer.classList.add('end-loading')
         setTimeout(() => {
             loadContainer.style.display = "none"
-        }, 2000);
-    }, 1000);
+        }, 1000);
+    }, 500);
 })

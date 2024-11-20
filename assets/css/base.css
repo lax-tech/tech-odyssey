@@ -189,7 +189,7 @@ ul{
 }
 
 .end-loading{
-    transition: all 2s ease-in;
+    transition: all 1s ease-in;
     opacity: 0;
 }
 
@@ -203,25 +203,25 @@ ul{
 
 .end-loading .l1::after{
     border-radius: 0px !important;
-    transition: 6s ease-in;
+    transition: 3s ease-in;
     transform: translateY(-100px) translateX(-100px);
     scale: 100;
 }
 .end-loading .l2::after{
     border-radius: 0px !important;
-    transition: 5s ease-in;
+    transition: 2.5s ease-in;
     transform: translateY(100px) translateX(-100px);
     scale: 150;
 }
 .end-loading .l3::after{
     border-radius: 0px !important;
-    transition: 3s ease-in;
+    transition: 1.5s ease-in;
     transform: translateY(-100px) translateX(100px);
     scale: 200;
 }
 .end-loading .l4::after{
     border-radius: 0px !important;
-    transition: 4s ease-in;
+    transition: 2s ease-in;
     transform: translateY(100px) translateX(100px);
     scale: 100;
 }
