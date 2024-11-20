@@ -43,7 +43,10 @@ ul{
     padding-left: 0;
 }
 
-
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .section{
     padding-top: 120px;
