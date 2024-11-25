@@ -286,10 +286,12 @@ header{
 }
 
 .a-img-container .a-img{
+    position: absolute;
+    top: 0;
+    left: 0;
     border: 2px solid #000;
     width: 45%;
     height: 45%;
-    position: absolute;
     border-radius: 30px;
     overflow: hidden;
     background-color: white;
