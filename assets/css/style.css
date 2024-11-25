@@ -11,6 +11,19 @@
     color: white;
 }
 
+.home-header2{
+    padding-top: 100px;
+    background-color: #e2e5e734;
+}
+.home-header2 h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.home-header2 img{
+    height: 200px;
+    opacity: .5;
+}
+
 main{
 }
 
@@ -45,7 +58,7 @@ main{
     border-radius: 18px;
 }
 
-header{
+.home-header {
     overflow: hidden;
     background: linear-gradient(to bottom, #00000069 0%, #00000052 100%), url(../img/IMG_8521.jpg);
     background-size: cover;
@@ -283,7 +296,7 @@ header{
 
 
 .partner-section{
-    //
+    /*  */
 }
 
 .a-img-container{

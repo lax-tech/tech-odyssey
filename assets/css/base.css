@@ -73,6 +73,13 @@ ul{
 .bg-red{
     background: var(--red);
 }
+.bg-gray{
+    background: #e9ebec;
+}
+
+.br-12{
+    border-radius: 12px;
+}
 
 
 .page-brand{
@@ -91,6 +98,17 @@ ul{
 }
 .btn-primary:hover{
     background-color: var(--blue) !important;
+}
+
+.btn-disabled{
+    background-color: #b7bec7 !important;
+    color: #555 !important;
+    cursor: unset;
+}
+.btn-disabled:hover{
+    background-color: #b7bec7 !important;
+    color: #555 !important;
+    cursor: unset;
 }
 
 .btn{
