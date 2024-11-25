@@ -85,6 +85,14 @@ ul{
     height: 80px;
 }
 
+.btn-primary{
+    background-color: var(--black) !important;
+    color: white !important;
+}
+.btn-primary:hover{
+    background-color: var(--blue) !important;
+}
+
 .btn{
     padding: 5px 20px;
     background-color: var(--blue);
@@ -102,7 +110,7 @@ ul{
 .btn-large{
     padding: 15px 40px;
     background-color: var(--blue);
-    border-radius: 12px;
+    border-radius: 8px;
     color: black;
     transition: .4s ease-out;
     border: none;
